@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0E4D4E23778EEC007C61D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4D4D23778EEC007C61D7 /* AppDelegate.swift */; };
+		BC0E4D5023778EEC007C61D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4D4F23778EEC007C61D7 /* art.scnassets */; };
+		BC0E4D5523778EEC007C61D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4D5323778EEC007C61D7 /* Main.storyboard */; };
+		BC0E4D5723778EF2007C61D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4D5623778EF2007C61D7 /* Assets.xcassets */; };
+		BC0E4D5A23778EF2007C61D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4D5823778EF2007C61D7 /* LaunchScreen.storyboard */; };
+		BC0E4D882377940D007C61D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0E4D872377940D007C61D7 /* CoreLocation.framework */; };
+		BC0E4D9A23779A04007C61D7 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4D9923779A04007C61D7 /* SCNVector3+Extensions.swift */; };
+		BC0E4D9C23779A25007C61D7 /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4D9B23779A25007C61D7 /* SceneLocationEstimate.swift */; };
+		BC0E4D9E23779A3C007C61D7 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4D9D23779A3C007C61D7 /* SceneLocationEstimate+Extensions.swift */; };
+		BC0E4DA023779A50007C61D7 /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4D9F23779A50007C61D7 /* FloatingPoint+Radians.swift */; };
+		BC0E4DA223779A5E007C61D7 /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DA123779A5E007C61D7 /* LocationNode.swift */; };
+		BC0E4DA423779A71007C61D7 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DA323779A71007C61D7 /* CGPoint+Extensions.swift */; };
+		BC0E4DA623779A87007C61D7 /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DA523779A87007C61D7 /* CLLocation+Extensions.swift */; };
+		BC0E4DA823779AA1007C61D7 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DA723779AA1007C61D7 /* SceneLocationView.swift */; };
+		BC0E4DAA23779AC3007C61D7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DA923779AC3007C61D7 /* LocationManager.swift */; };
+		BC0E4DAC23779AD9007C61D7 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DAB23779AD9007C61D7 /* SCNNode+Extensions.swift */; };
+		BC0E4DAE23779B03007C61D7 /* ARCLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DAD23779B03007C61D7 /* ARCLViewController.swift */; };
+		BC0E4DB023779B2C007C61D7 /* LocationTextAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DAF23779B2C007C61D7 /* LocationTextAnnotationNode.swift */; };
+		BC0E4DB223779B4B007C61D7 /* RouteSegmentAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DB123779B4B007C61D7 /* RouteSegmentAnnotationNode.swift */; };
+		BC0E4DB423779B63007C61D7 /* RouteAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DB323779B63007C61D7 /* RouteAnnotationNode.swift */; };
+		BC0E4DB623779B88007C61D7 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DB523779B88007C61D7 /* PointOfInterest.swift */; };
+		BC0E4DB823779BA5007C61D7 /* RouteSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4DB723779BA5007C61D7 /* RouteSegment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC0E4D4A23778EEC007C61D7 /* AugmentedReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0E4D4D23778EEC007C61D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC0E4D4F23778EEC007C61D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		BC0E4D5423778EEC007C61D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0E4D5623778EF2007C61D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0E4D5923778EF2007C61D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0E4D5B23778EF2007C61D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0E4D872377940D007C61D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC0E4D9923779A04007C61D7 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		BC0E4D9B23779A25007C61D7 /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
+		BC0E4D9D23779A3C007C61D7 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		BC0E4D9F23779A50007C61D7 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		BC0E4DA123779A5E007C61D7 /* LocationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
+		BC0E4DA323779A71007C61D7 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		BC0E4DA523779A87007C61D7 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		BC0E4DA723779AA1007C61D7 /* SceneLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLocationView.swift; sourceTree = "<group>"; };
+		BC0E4DA923779AC3007C61D7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BC0E4DAB23779AD9007C61D7 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		BC0E4DAD23779B03007C61D7 /* ARCLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCLViewController.swift; sourceTree = "<group>"; };
+		BC0E4DAF23779B2C007C61D7 /* LocationTextAnnotationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTextAnnotationNode.swift; sourceTree = "<group>"; };
+		BC0E4DB123779B4B007C61D7 /* RouteSegmentAnnotationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSegmentAnnotationNode.swift; sourceTree = "<group>"; };
+		BC0E4DB323779B63007C61D7 /* RouteAnnotationNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAnnotationNode.swift; sourceTree = "<group>"; };
+		BC0E4DB523779B88007C61D7 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		BC0E4DB723779BA5007C61D7 /* RouteSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSegment.swift; sourceTree = "<group>"; };
+		BC0E4DBB23779C64007C61D7 /* Pods-AugmentedReality.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-AugmentedReality.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0E4DBC23779CA0007C61D7 /* Pods-AugmentedReality.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pods-AugmentedReality.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0E4D4723778EEC007C61D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4D882377940D007C61D7 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0E4D4123778EEC007C61D7 = {
+			isa = PBXGroup;
+			children = (
+				BC0E4D4C23778EEC007C61D7 /* AugmentedReality */,
+				BC0E4D4B23778EEC007C61D7 /* Products */,
+				BC0E4D862377940D007C61D7 /* Frameworks */,
+				BC0E4DBA23779BD5007C61D7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0E4D4B23778EEC007C61D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4D4A23778EEC007C61D7 /* AugmentedReality.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0E4D4C23778EEC007C61D7 /* AugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4D6123778F2E007C61D7 /* ARCL */,
+				BC0E4D4D23778EEC007C61D7 /* AppDelegate.swift */,
+				BC0E4D4F23778EEC007C61D7 /* art.scnassets */,
+				BC0E4D5323778EEC007C61D7 /* Main.storyboard */,
+				BC0E4D5623778EF2007C61D7 /* Assets.xcassets */,
+				BC0E4D5823778EF2007C61D7 /* LaunchScreen.storyboard */,
+				BC0E4D5B23778EF2007C61D7 /* Info.plist */,
+				BC0E4DAD23779B03007C61D7 /* ARCLViewController.swift */,
+				BC0E4DAF23779B2C007C61D7 /* LocationTextAnnotationNode.swift */,
+				BC0E4DB123779B4B007C61D7 /* RouteSegmentAnnotationNode.swift */,
+				BC0E4DB323779B63007C61D7 /* RouteAnnotationNode.swift */,
+				BC0E4DB523779B88007C61D7 /* PointOfInterest.swift */,
+				BC0E4DB723779BA5007C61D7 /* RouteSegment.swift */,
+			);
+			path = AugmentedReality;
+			sourceTree = "<group>";
+		};
+		BC0E4D6123778F2E007C61D7 /* ARCL */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4D9923779A04007C61D7 /* SCNVector3+Extensions.swift */,
+				BC0E4D9B23779A25007C61D7 /* SceneLocationEstimate.swift */,
+				BC0E4D9D23779A3C007C61D7 /* SceneLocationEstimate+Extensions.swift */,
+				BC0E4D9F23779A50007C61D7 /* FloatingPoint+Radians.swift */,
+				BC0E4DA123779A5E007C61D7 /* LocationNode.swift */,
+				BC0E4DA323779A71007C61D7 /* CGPoint+Extensions.swift */,
+				BC0E4DA523779A87007C61D7 /* CLLocation+Extensions.swift */,
+				BC0E4DA723779AA1007C61D7 /* SceneLocationView.swift */,
+				BC0E4DA923779AC3007C61D7 /* LocationManager.swift */,
+				BC0E4DAB23779AD9007C61D7 /* SCNNode+Extensions.swift */,
+			);
+			path = ARCL;
+			sourceTree = "<group>";
+		};
+		BC0E4D862377940D007C61D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4D872377940D007C61D7 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC0E4DBA23779BD5007C61D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4DBB23779C64007C61D7 /* Pods-AugmentedReality.debug.xcconfig */,
+				BC0E4DBC23779CA0007C61D7 /* Pods-AugmentedReality.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0E4D4923778EEC007C61D7 /* AugmentedReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0E4D5E23778EF2007C61D7 /* Build configuration list for PBXNativeTarget "AugmentedReality" */;
+			buildPhases = (
+				BC0E4D4623778EEC007C61D7 /* Sources */,
+				BC0E4D4723778EEC007C61D7 /* Frameworks */,
+				BC0E4D4823778EEC007C61D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugmentedReality;
+			productName = AugmentedReality;
+			productReference = BC0E4D4A23778EEC007C61D7 /* AugmentedReality.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0E4D4223778EEC007C61D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Bibinur;
+				TargetAttributes = {
+					BC0E4D4923778EEC007C61D7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = BC0E4D4523778EEC007C61D7 /* Build configuration list for PBXProject "AugmentedReality" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0E4D4123778EEC007C61D7;
+			productRefGroup = BC0E4D4B23778EEC007C61D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0E4D4923778EEC007C61D7 /* AugmentedReality */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0E4D4823778EEC007C61D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4D5023778EEC007C61D7 /* art.scnassets in Resources */,
+				BC0E4D5A23778EF2007C61D7 /* LaunchScreen.storyboard in Resources */,
+				BC0E4D5723778EF2007C61D7 /* Assets.xcassets in Resources */,
+				BC0E4D5523778EEC007C61D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0E4D4623778EEC007C61D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4DAC23779AD9007C61D7 /* SCNNode+Extensions.swift in Sources */,
+				BC0E4DA823779AA1007C61D7 /* SceneLocationView.swift in Sources */,
+				BC0E4DB023779B2C007C61D7 /* LocationTextAnnotationNode.swift in Sources */,
+				BC0E4DB623779B88007C61D7 /* PointOfInterest.swift in Sources */,
+				BC0E4DB423779B63007C61D7 /* RouteAnnotationNode.swift in Sources */,
+				BC0E4DA623779A87007C61D7 /* CLLocation+Extensions.swift in Sources */,
+				BC0E4DAA23779AC3007C61D7 /* LocationManager.swift in Sources */,
+				BC0E4D9C23779A25007C61D7 /* SceneLocationEstimate.swift in Sources */,
+				BC0E4DA423779A71007C61D7 /* CGPoint+Extensions.swift in Sources */,
+				BC0E4DB223779B4B007C61D7 /* RouteSegmentAnnotationNode.swift in Sources */,
+				BC0E4D9A23779A04007C61D7 /* SCNVector3+Extensions.swift in Sources */,
+				BC0E4DA223779A5E007C61D7 /* LocationNode.swift in Sources */,
+				BC0E4D9E23779A3C007C61D7 /* SceneLocationEstimate+Extensions.swift in Sources */,
+				BC0E4D4E23778EEC007C61D7 /* AppDelegate.swift in Sources */,
+				BC0E4DB823779BA5007C61D7 /* RouteSegment.swift in Sources */,
+				BC0E4DAE23779B03007C61D7 /* ARCLViewController.swift in Sources */,
+				BC0E4DA023779A50007C61D7 /* FloatingPoint+Radians.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC0E4D5323778EEC007C61D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0E4D5423778EEC007C61D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0E4D5823778EF2007C61D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0E4D5923778EF2007C61D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0E4D5C23778EF2007C61D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC0E4D5D23778EF2007C61D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0E4D5F23778EF2007C61D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA7JNFNX87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AugmentedReality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhursinbek.bibinur.AugmentedRealityExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC0E4D6023778EF2007C61D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CT85KSS29B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"./**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AugmentedReality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhursinbek.bibinur.AugmentedReality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0E4D4523778EEC007C61D7 /* Build configuration list for PBXProject "AugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E4D5C23778EF2007C61D7 /* Debug */,
+				BC0E4D5D23778EF2007C61D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0E4D5E23778EF2007C61D7 /* Build configuration list for PBXNativeTarget "AugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E4D5F23778EF2007C61D7 /* Debug */,
+				BC0E4D6023778EF2007C61D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0E4D4223778EEC007C61D7 /* Project object */;
+}
